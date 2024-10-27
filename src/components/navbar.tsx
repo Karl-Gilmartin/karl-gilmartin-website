@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-black border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav className="bg-gray-800 border-gray-200 dark:bg-gray-900 rounded-lg">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 rounded-lg">
                 <a href="/home" className="flex items-center space-x-3 rtl:space-x-reverse">
                     
                     <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">KARL GILMARTIN</span>
@@ -17,9 +17,9 @@ const Navbar: React.FC = () => {
                 </button>
                 <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black" aria-current="page">Home</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">About</a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Projects</a>
+            <a href="/home" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black" aria-current="page">Home</a>
+            <a href="/about" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">About</a>
+            <a href="/projects" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Projects</a>
             <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Blog</a>
             <a href="#" className="rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white hover:text-black">Contact</a>
           </div>

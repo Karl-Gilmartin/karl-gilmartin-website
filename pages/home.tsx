@@ -1,7 +1,8 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import Image from 'next/image';
-import person from "../person.jpg";
+import person from "../src/person.jpg";
+import '../src/app/globals.css';
 
 export default function Home() {
   return (
